@@ -1,0 +1,21 @@
+CREATE TABLE ETL_DB 
+	(ID INT NOT NULL, 
+	Brand VARCHAR NOT NULL,
+	Model VARCHAR NOT NULL,
+	AccelSec FLOAT NOT NULL,
+	RapidCharge VARCHAR NOT NULL,
+	PowerTrain VARCHAR NOT NULL,
+	BodyStyle VARCHAR NOT NULL,
+	Segment VARCHAR NOT NULL,
+	Subtitle VARCHAR NOT NULL,
+	Acceleration VARCHAR NOT NULL,
+	TopSpeed VARCHAR NOT NULL,
+	Range VARCHAR NOT NULL,
+	NumberofSeats FLOAT NOT NULL,
+	PriceinGermany VARCHAR NOT NULL,
+	PriceinUK VARCHAR NOT NULL,
+	PRIMARY KEY (ID));
+	
+	select * from ETL_DB
+
+Drop table ETL_DB
