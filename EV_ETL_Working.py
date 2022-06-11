@@ -167,10 +167,3 @@ engine.table_names
 pd.read_sql('select * from etl_db', con=engine.connect())
 
 
-# # TO DO for Saturday
-# Drop AccelSec column and recreate SQL database with one less column.
-# Clean up and pseudocode
-# Download as .py file: File>Download as>Python (.py)
-# Remove notebook file and replace with .py file
-# Submit Project
-# Finish Web Scraping HW
